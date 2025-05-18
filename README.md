@@ -65,7 +65,11 @@ Add it to crontab to run every hour
 crontab -e
 ```
 ```bash
-0 * * * * /usr/bin/python3 /home/ryan/website-speed-test.py
+0 * * * * /usr/bin/python3 /home/USERNAME/Website-Speed-Test-CLI-Headless/website-speed-test.py
+```
+If you want to run a status check 3 times per day and send you results of all websites you can optionally create this crontab 
+```bash
+0 4,10,22 * * * /usr/bin/python3 /home/USERNAME/Website-Speed-Test-CLI-Headless/status-website.py
 ```
 
 
