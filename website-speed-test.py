@@ -17,8 +17,8 @@ telegram_chat_id = ""
 
 # Thresholds (in ms)
 ttfb_threshold = 1000
-domcontentloaded_threshold = 7000
-load_event_end_threshold = 10000
+domcontentloaded_threshold = 6000
+load_event_end_threshold = 7000
 
 delay_between_checks = 5  # seconds
 
