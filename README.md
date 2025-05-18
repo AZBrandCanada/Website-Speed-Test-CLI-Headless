@@ -36,7 +36,7 @@ chmod +x install.sh
 ```
 
 3. Configure the script:
-- Open `monitorPerformance.sh` and set the following variables:
+- Open `website-speed-test.py` and set the following variables:
   - `TELEGRAM_TOKEN`
   - `TELEGRAM_CHAT_ID`
   - `URLS` (an array of URLs to monitor)
@@ -46,8 +46,16 @@ chmod +x install.sh
 To run the script:
 
 ```bash
-./monitorPerformance.sh
+./website-speed-test.py
 ```
+Add it to crontab to run every hour 
+```bash
+crontab -e
+```
+```bash
+0 * * * * /usr/bin/python3 /home/ryan/website-speed-test.py
+```
+
 
 ### Example Output
 ```
