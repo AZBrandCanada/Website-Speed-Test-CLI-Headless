@@ -35,7 +35,6 @@ chmod +x install.sh
   - `TELEGRAM_CHAT_ID`
   - `URLS` (an array of URLs to monitor)
   - `DELAY` (time in seconds between URL checks)
-  - `node_script = "/home/USERNAME/measureLoad.js"` (set to the location of this script on your server)
 
 
 ### Usage
