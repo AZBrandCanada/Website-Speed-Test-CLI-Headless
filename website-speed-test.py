@@ -5,7 +5,7 @@ import requests
 import time
 
 # Config
-node_script = "/home/ryan/measureLoad.js"
+node_script = "measureLoad.js"
 urls = [
     "https://website.com",
     "https://website.com",
