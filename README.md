@@ -14,12 +14,6 @@ This repository provides a performance monitoring script that uses Puppeteer to 
 - Puppeteer
 - chromium
 
-install requirements.
-```bash
-chmod +x install.sh && sudo ./install.sh
-```
-
-
 ### Installation
 1. Clone the repository:
 
