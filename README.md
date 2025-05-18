@@ -34,6 +34,9 @@ chmod +x install.sh
 ```
 
 3. Configure the script:
+```bash
+nano website-speed-test.py
+```
 - Open `website-speed-test.py` and set the following variables:
   - `TELEGRAM_TOKEN`
   - `TELEGRAM_CHAT_ID`
