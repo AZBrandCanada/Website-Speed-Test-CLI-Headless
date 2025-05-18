@@ -20,7 +20,7 @@ ttfb_threshold = 1000
 domcontentloaded_threshold = 6000
 load_event_end_threshold = 7000
 
-delay_between_checks = 5  # seconds
+delay_between_checks = 5  # seconds for each website in the list. 
 
 def send_telegram_message(text):
     url_telegram = f"https://api.telegram.org/bot{telegram_token}/sendMessage"
