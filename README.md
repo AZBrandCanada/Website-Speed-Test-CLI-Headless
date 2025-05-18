@@ -1,7 +1,10 @@
 # README
 
 This repository provides a performance monitoring script that uses Puppeteer to measure key metrics such as TTFB, DOMContentLoaded, and Load Event End for multiple URLs.
-This is tested on Ubuntu 24.04, but would likely work on other operating systems with some modification. 
+
+## Supported Operating Systems
+Ubuntu 20.04, 24.04 Maybe others
+May work on other operating systems but untested.
 
 ## Features
 - Monitor multiple URLs sequentially
