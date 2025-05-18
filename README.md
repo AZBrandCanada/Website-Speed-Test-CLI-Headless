@@ -71,10 +71,11 @@ crontab -e
 
 ### Example Output
 ```
-TTFB: 996 ms
-DOMContentLoaded: 3463 ms
-Load event end: 4569 ms
-Total request duration: 711 ms
+Results for https://website.com-
+TTFB: 643 ms,
+DOMContentLoaded: 2333 ms,
+Load event end: 2959 ms
+
 ```
 
 If any thresholds are exceeded, a Telegram alert will be sent with the details.
