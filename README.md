@@ -24,8 +24,8 @@ chmod +x install.sh && sudo ./install.sh
 1. Clone the repository:
 
 ```bash
-git clone <repo_url>
-cd <repo_folder>
+git clone [<repo_url>](https://github.com/AZBrandCanada/Website-Speed-Test-CLI-Headless)
+cd Website-Speed-Test-CLI-Headless
 ```
 
 2. Run the installer:
