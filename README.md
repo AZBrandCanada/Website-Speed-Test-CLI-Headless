@@ -42,17 +42,14 @@ nano website-speed-test.py
   - `TELEGRAM_CHAT_ID`
   - `URLS` (an array of URLs to monitor)
   - `DELAY` (time in seconds between URL checks)
- 
-Set the Metrics you want for TTFB, DomContentLoaded and final load time.
-telegram_token = "89989878dhha988876677" # your telegram token found with botfather
-telegram_chat_id = "-8882737773" # your telegram chat itd
-
-# Thresholds (in ms Default settings)
-ttfb_threshold = 1000
-domcontentloaded_threshold = 5000
-load_event_end_threshold = 7000
-
-delay_between_checks = 5  # seconds
+  - Set the Metrics you want for TTFB, DomContentLoaded and final load time.
+  - telegram_token = "89989878dhha988876677" # your telegram token found with botfather
+  - telegram_chat_id = "-8882737773" # your telegram chat itd
+  - # Thresholds (in ms Default settings)
+  - ttfb_threshold = 1000
+  - domcontentloaded_threshold = 5000
+  - load_event_end_threshold = 7000
+  - delay_between_checks = 5  # seconds
 
 
 
